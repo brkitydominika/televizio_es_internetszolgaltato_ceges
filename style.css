@@ -104,8 +104,10 @@ a{
 
 .szakNberek{
     height: 15vw;
-    width: 10vw;
-   
+    width: 10vw; 
+}
+.szakNberek:hover{
+    transform: scale(1.1);
 }
 
 .wifi{
