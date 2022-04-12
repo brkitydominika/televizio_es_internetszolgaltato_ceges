@@ -40,6 +40,12 @@ body{
 }
 #main { 
     grid-area: main;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
 
 }
 #nav { 
@@ -99,4 +105,9 @@ a{
 .szakNberek{
     height: 15vw;
     width: 10vw;
+   
+}
+
+.wifi{
+    padding-left: 200px;
 }
