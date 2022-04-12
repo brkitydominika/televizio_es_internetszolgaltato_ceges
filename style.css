@@ -13,7 +13,23 @@ body{
     margin: 0;
     
 }
-
+#cim{
+    animation-name: cim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cim{
+    to{transform: rotateZ(360deg);}
+}
+#cim_logo{
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
 #head {
     grid-area: header;
    
