@@ -85,17 +85,15 @@ h2{
     width: 10vw; 
 }
 
+.menu:hover{
+    transform: scale(1.1);
+}
+
 div{
     text-align: center;
 
 }
 
-table, tr, td{
-    color: white;
-    padding: 10px;
-    text-align: center;
-    
-}
 
 a{
     color: orange;
@@ -111,5 +109,5 @@ a{
 }
 
 .wifi{
-    padding-left: 200px;
+    padding-left: 10vw;
 }
